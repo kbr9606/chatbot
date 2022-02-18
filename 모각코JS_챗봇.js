@@ -77,6 +77,10 @@ function checkText() {
         image.src = "./static/images/쮝슨.png";
         setTimeout(reload, 2000);
     }
+    
+    else {
+        hamSays[0].innerHTML = "무슨 뜻인지 잘 모르겠습니다,,,";
+    }
 
     if (follow == 1) {
         hamSays[0].innerHTML = value + " 쮝!";
