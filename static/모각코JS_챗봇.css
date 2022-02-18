@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    font-family: 'KOTRAHOPE';
+    width: 100%; height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #ffeef6;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#saysBox {
+    width: 500px;
+    border: 3px solid #ffb8d1;
+    border-radius: 20px;
+    text-align: center;
+
+    padding: 10px;
+    margin: 0px auto;
+}
+
+#saysBox p {
+    font-family: 'KOTRAHOPE';
+    font-size: 25px;
+    color: #ff8ab7;
+}
+
+#image {
+    width: 370px; height: 330px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    width: 300px;
+    display: block;
+    border: 2px solid #ffb8d1;
+    border-radius: 20px;
+
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.text:focus {
+    outline: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 120px; height: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 40px;
+
+    font-family: 'KOTRAHOPE';
+    font-size: 22px;
+    color: white;
+    background-color: #ffb8d1;
+    
+    cursor: pointer;
+
+    margin: 0 10px;
+}
+
+#overlay {
+    display: none;
+    width: 100%; height: 100%;
+    position: absolute;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#howtoBox {
+    width: 800px;
+    display: none;
+    font-size: 24px;
+    color: #ff8ab7;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 26px;
+}
+
+#howtoBox ul {
+    margin-bottom: 40px;
+}
+
+#howtoBox li {
+    margin: 15px;
+}
+
+#btn-close {
+    width: 90px; height: 40px;
+    background-color: #ff8ab7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    display: block;
+
+    font-family: 'KOTRAHOPE';
+    font-size: 21px;
+
+    margin: 0 auto;
+    cursor: pointer;
+}
+
